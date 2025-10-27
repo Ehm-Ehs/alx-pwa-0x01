@@ -1,5 +1,5 @@
-import { MoviesProps } from "@/interfaces";
 import { NextApiRequest, NextApiResponse } from "next";
+import { MoviesProps } from "../../../interfaces";
 export default async function handler (request: NextApiRequest, response: NextApiResponse)  {
 
   if (request.method === "POST") {
